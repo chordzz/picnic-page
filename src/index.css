@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glora Black Regular */
+@font-face {
+    font-family: "Glora";
+    src: url('./fonts/Glora-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Graduation Regular */
+@font-face {
+    font-family: "Graduation";
+    src: url('./fonts/Graduation.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Mediasans Bold Regular */
+@font-face {
+    font-family: "Media Sans";
+    src: url('./fonts/Mediasans-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Sequel Sans Regular */
+@font-face {
+    font-family: "Sequel Sans";
+    src: url('./fonts/Sequel-Sans-Light-Disp.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-button{
+    @apply  tracking-widest no-underline uppercase cursor-pointer relative select-none touch-none bg-[#B0D2F9] px-3 py-2 rounded-md border-2 border-[#10489D] my-8 text-[#0D3A80] text-base hover:cursor-pointer hover:bg-[#7AB3F5] opacity-0 translate-x-5 translate-y-10;
+
+
+    box-shadow: 1px 1px 0 0, 2px 2px 0 0, 3px 3px 0 0, 4px 4px 0 0, 5px 5px 0 0, 6px 6px 0 0, 7px 7px 0 0, 8px 8px 0 0, 9px 9px 0 0, 10px 10px 0 0;
+
+    /* @media (min-width: 768px) {
+        @apply px-3;
+    } */
+}
+
+.group:hover .custom-button {
+    @apply opacity-100 transform translate-y-0 translate-x-0 transition-all duration-1000 ease-in-out
+}
+
+.custom-button-mobile{
+    @apply  tracking-widest no-underline relative select-none touch-none bg-[#B0D2F9] px-3 py-2 rounded-md border-2 border-[#10489D] my-8 text-[#0D3A80] text-base;
+
+
+    box-shadow: 1px 1px 0 0, 2px 2px 0 0, 3px 3px 0 0, 4px 4px 0 0, 5px 5px 0 0, 6px 6px 0 0, 7px 7px 0 0, 8px 8px 0 0, 9px 9px 0 0, 10px 10px 0 0;
+
+    /* @media (min-width: 768px) {
+        @apply px-3;
+    } */
+}
+  
+.custom-button:active, .custom-button-mobile:active {
+    box-shadow: 0 0 0 0;
+    top: 5px;
+    left: 5px;
+}
+
+.op-0 {
+    opacity: 0;
+    transform: translateY(15px);
+    /* transition: opacity 1s ease, transform 1s ease; */
+}
+
+.op-1 {
+    opacity: 1;
+    /* transform: translateY(0); */
+    transform: translateY(15px);
+    transition: opacity 1s ease, transform 1s ease;
 }
