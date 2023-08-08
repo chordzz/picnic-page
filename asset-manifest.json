@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/picnic-page/static/css/main.5c05a7b0.css",
+    "main.js": "/picnic-page/static/js/main.8226bf9f.js",
+    "static/js/787.e2c78e0d.chunk.js": "/picnic-page/static/js/787.e2c78e0d.chunk.js",
+    "static/media/picnic-full.png": "/picnic-page/static/media/picnic-full.42867476d39236710605.png",
+    "static/media/picnic-mobile.png": "/picnic-page/static/media/picnic-mobile.7d14590bfc792556ab77.png",
+    "static/media/background.png": "/picnic-page/static/media/background.64df20bdf8e74c7822e1.png",
+    "static/media/Graduation.otf": "/picnic-page/static/media/Graduation.ca4be18ea08fb0643017.otf",
+    "static/media/Sequel-Sans-Light-Disp.otf": "/picnic-page/static/media/Sequel-Sans-Light-Disp.72a2687c3450204b7d49.otf",
+    "static/media/Mediasans-bold.otf": "/picnic-page/static/media/Mediasans-bold.9d71c7c2e646e2f97616.otf",
+    "static/media/Glora-Black.ttf": "/picnic-page/static/media/Glora-Black.63b290eaeb16876b6fbc.ttf",
+    "static/media/king-priest.svg": "/picnic-page/static/media/king-priest.e8019214e5284ee0fbad5fbdb86717cc.svg",
+    "index.html": "/picnic-page/index.html",
+    "main.5c05a7b0.css.map": "/picnic-page/static/css/main.5c05a7b0.css.map",
+    "main.8226bf9f.js.map": "/picnic-page/static/js/main.8226bf9f.js.map",
+    "787.e2c78e0d.chunk.js.map": "/picnic-page/static/js/787.e2c78e0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c05a7b0.css",
+    "static/js/main.8226bf9f.js"
+  ]
+}
